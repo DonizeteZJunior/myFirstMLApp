@@ -20,4 +20,28 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup Label="AmazonModel">
+    <None Include="AmazonModel.consumption.cs">
+      <DependentUpon>AmazonModel.mbconfig</DependentUpon>
+    </None>
+    <None Include="AmazonModel.training.cs">
+      <DependentUpon>AmazonModel.mbconfig</DependentUpon>
+    </None>
+    <None Include="AmazonModel.zip">
+      <DependentUpon>AmazonModel.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup Label="ImdbModel">
+    <None Include="ImdbModel.consumption.cs">
+      <DependentUpon>ImdbModel.mbconfig</DependentUpon>
+    </None>
+    <None Include="ImdbModel.training.cs">
+      <DependentUpon>ImdbModel.mbconfig</DependentUpon>
+    </None>
+    <None Include="ImdbModel.zip">
+      <DependentUpon>ImdbModel.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
